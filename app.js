@@ -21,4 +21,5 @@ app.use('/api',require('./routes/api'));
 var port =  process.env.PORT || 4000;
 app.listen(port,()=>{
     console.log(`Running Succesfully on ${port}`);
+    console.log("Learning git commands");
 })
